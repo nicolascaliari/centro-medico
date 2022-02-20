@@ -1,0 +1,151 @@
+*{
+ margin: 0;
+ text-decoration: none;
+ box-sizing: border-box;
+ font-family: 'Readex Pro', sans-serif;
+}
+
+
+
+#top-bars {
+    background-color: #57BCF4;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFF;
+}
+
+#nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#top-bars {
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse
+    
+}
+
+#top-bars div {
+    font-size: 30px;
+}
+
+#nav {
+    float: right;
+    margin-top: -100%;
+    background-color: #57BCF4;
+}
+
+@keyframes aparecer {
+    0% {
+        margin-top: -100%;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
+
+@keyframes desaparecer {
+    0% {
+        margin-top: 0%;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+.section-img img {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    
+}
+
+.section-logo-img {
+    margin-top: 50px;
+}
+
+.section-logo-img img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    
+}
+
+
+
+
+
+.titulo {
+    background-color: #57BCF4;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    width: 300px;
+    margin: auto;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.contenido {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contenido p {
+    text-align: center;
+    text-align: left;
+    color: #000000;
+    line-height: 13px;
+    line-height: 100%;
+    font-weight: bolder;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.contactanos {
+    background-color: #084c61;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.contactanos p {
+color: #fff;
+margin-top: 10px;
+font-weight: bolder;
+}
+
+.nuestro-equipo {
+    background-color: #084c61;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    
+}
+
+.nuestro-equipo p {
+    color: #FFF;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+
+.footer-background{
+    margin-top: 100px;
+    
+}
+
