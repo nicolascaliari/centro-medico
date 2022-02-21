@@ -1,0 +1,149 @@
+
+
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+body {
+    background: rgba(17, 17, 17, 0.07);
+}
+
+#top-bars {
+    background-color: #57BCF4;
+}
+
+
+#top-bars #menu {
+    color: #FFF;
+    float: right;
+}
+
+
+#nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFF;
+}
+
+#nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#nav ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#top-bars {
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse
+}
+
+#top-bars div {
+    font-size: 30px;
+}
+
+#nav {
+    float: right;
+    margin-top: -100%;
+    background-color: #57BCF4;
+}
+
+@keyframes aparecer {
+    0% {
+        margin-top: -100%;
+    }
+
+    100% {
+        margin-top: 0%;
+    }
+}
+
+@keyframes desaparecer {
+    0% {
+        margin-top: 0%;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+
+#map {
+    position: relative;
+    top: 209px;
+    margin: auto;
+    margin-right: 60px;
+    margin-left: 60px;
+    height: 250px;
+    border: 4px solid #084C61;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 14px;
+}
+
+.map-texto{
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.div-container {
+    background-color: #fff;
+    height: 550px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.div-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+
+.form-contacto  form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+.form-contacto form textarea {
+    width: 90%;
+    margin: 10px;
+}
+
+
+.form-contacto form button {
+    background-color: #084C61;
+    color: #fff;
+    border-radius: 6px;
+    margin: auto;
+    display: flex;
+    padding: 5px 20px;
+    
+}
+    
+
+ 
+

@@ -126,10 +126,12 @@
     margin-left: 10px;
     cursor: pointer;
 }
-.contactanos p {
+.contactanos a {
     color: #fff;
     margin-top: 10px;
     font-weight: bolder;
+    text-decoration: none;
+    margin: auto;
 }
 
 .contactanos:hover{
@@ -164,20 +166,28 @@
     display: flex;
     margin-top: 160px;
     background-image: url(/imagenes/footer/Footer-wave.svg);
+    background-repeat: no-repeat;
 }
 
 
 .footer-wave .logo-footer img{
     height: 100px;
     width: 200px;
+    position: relative;
+    top:250px;
+    margin: auto;
 }
 
 .footer-wave .info li{
     position: relative;
     list-style: none;
+    top: 250px;
+    margin:auto;
+    color: rgb(0, 0, 0);
 }
 
 .footer-wave .info li label{
     font-weight: bolder;
     margin-left: 10px;
 }
+
