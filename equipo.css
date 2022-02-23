@@ -1,11 +1,87 @@
-*{
-	margin: 0;
+* {
+    margin: 0;
 	padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
 }
 
-body{
-  background: #1D1F20;
+
+#menu{
+    cursor: pointer;
 }
+
+#top-bars {
+    background-color: #729bd3;
+}
+
+#top-bars #menu {
+    color: #FFF;
+    float: right;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFF;
+}
+
+#nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#top-bars {
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#top-bars div {
+    font-size: 30px;
+}
+
+#nav {
+    float: right;
+    margin-top: -100%;
+    background-color: #729bd3;
+}
+
+@keyframes aparecer {
+    0% {
+        margin-top: -100%;
+    }
+
+    100% {
+        margin-top: 0%;
+    }
+}
+
+@keyframes desaparecer {
+    0% {
+        margin-top: 0%;
+    }
+
+    100% {
+        margin-top: -100%;
+    }
+}
+
+
+body{
+  background: #fff;
+}
+
+
+.doctores-img{
+	width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+
 
 .wrap{
 	width: 100%;
@@ -29,7 +105,7 @@ body{
 .tarjeta{
 	width: 220px;
 	height: 100px;
-	background: #F29720;
+	background: #84be9e;
 	position: relative;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -73,7 +149,7 @@ body{
 	text-align: center;
 	color: #fff;
 	font-family: "open sans";
-  background: #F29720;
+  background: #84be9e;
 }
 
 .tarjeta-wrap:hover .tarjeta{
@@ -81,3 +157,77 @@ body{
 	transform: rotateY(180deg);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer-wave {
+    margin-top: 300px;
+	width: 100%;
+    height: 150px;
+    background-color: #5d90d5;
+}
+
+.elementos-footer {
+	display: flex;
+}
+
+
+.footer-wave .logo-footer img{
+    height: 80px;
+    width: auto;
+    margin: auto;
+	margin-top: 30px;
+}
+
+.footer-wave .info{
+    margin-top: 25px;
+       
+}
+
+
+.footer-wave .info li{
+    list-style: none;
+    margin:auto;
+    color: #084C61;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.132);
+    padding: 7px;
+}
+
+.footer-wave .info li label{
+    margin-left: 10px;
+	color: #fff;
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: normal;
+}
