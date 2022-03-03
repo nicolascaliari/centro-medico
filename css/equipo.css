@@ -112,18 +112,26 @@ body{
 }
 
 .tarjeta .adelante{
-    margin-top: 20px;
+    font-size: 15px;
+    margin-top: 30px;
     text-align: center;
 }
-
+#texto-doble {
+ margin-top: -10px;
+}
 
 
 .tarjeta .atras{
     cursor: pointer;
 }
 
+p {
+    text-decoration: none;
+    color: #000;
+}
+
 .tarjeta{
-	width: 220px;
+	width: 250px;
 	height: 100px;
 	background: #f8b660;
 	position: relative;
@@ -137,7 +145,6 @@ body{
     -moz-user-select: none;
     -khtml-user-select: none;
     -ms-user-select:none;
-
 }
 
 .adelante, .atras{
