@@ -130,7 +130,7 @@ body {
     background-color: #fff;
     height: 550px;
     border-radius: 20px;
-    margin-top: 250px;
+    margin-top: 100px;
     margin-right: 40px;
     margin-left: 40px;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
@@ -217,3 +217,50 @@ body {
 }
 
 
+
+@media only screen and (min-width : 800px){
+    .div-container {
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #menu {
+      display: none;
+    }
+    #nav {
+      margin-top: -60px;
+      background-color: transparent;
+    }
+  
+   #top-bars {
+       flex-direction: row;
+   }
+  
+   .logo-nav{
+      margin-left: 130px;
+   }
+   
+    #nav ul {
+      list-style: none;
+      margin-right: 130px;
+      padding: 0;
+    }
+    #nav li {
+      float: left;
+    }
+  
+    #nav li:hover {
+        background-color: #5a7cac;
+        border-radius: 40px;
+      }
+  
+    @keyframes aparecer {
+    }
+    
+    @keyframes desaparecer {
+    }
+  
+  }
