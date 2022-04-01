@@ -146,6 +146,16 @@ p {
     -khtml-user-select: none;
     -ms-user-select:none;
 }
+.blue {
+    background: rgb(114, 114, 211);
+}
+.green {
+    background: rgb(94, 204, 94);
+}
+
+.pink {
+    background: pink;
+}
 
 .adelante, .atras{
 	width: 100%;

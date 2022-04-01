@@ -126,11 +126,11 @@
 
 .descripcion-contenido{
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
     margin-left: 10px;
 }
 .descripcion-contenido p {
-    
+    text-align: center;
     margin: auto;
 }
 
